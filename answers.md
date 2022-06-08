@@ -1,8 +1,8 @@
 # Big O Answers
 
 ## Snippet 1 -
-### Big O:
-### Explanation:
+### Big O: O(N) Linear time
+### Explanation: The relative runtime will increase linearly(N+1) the more values are added to array. 
 ```python
 def largest(array, value):
   for item in array:
@@ -13,8 +13,8 @@ def largest(array, value):
 
 
 ## Snippet 2 -
-### Big O:
-### Explanation:
+### Big O: O(N) Linear time
+### Explanation:The relative runtime will still increase linearly as customers gets larger
 
 ```python
 def info_dump(customers):
@@ -30,8 +30,8 @@ def info_dump(customers):
 ```
 
 ## Snippet 3 -
-### Big O:
-### Explanation:
+### Big O: O(1)
+### Explanation: Constant time because no matter how large array is, the first index will always be 'red'
 
 ```python
 def first_element_is_red(array):
@@ -53,9 +53,9 @@ def duplicates(array):
   return False
 ``` 
 
-## Snippet 5 -
-### Big O:
-### Explanation:
+## Snippet 5 - 
+### Big O: O(N^2)
+### Explanation: Because this is a nested loop the larger the input becomes the more amount of runtime is required to go through both sets of arrays(?)
 
 ```python
 words = ['chocolate', 'coconut', 'rainbow']
@@ -68,8 +68,8 @@ for word in words:
 ```
 
 ## Snippet 6 -
-### Big O:
-### Explanation:
+### Big O: O(N)
+### Explanation: This algorithms runtime will increase linearly as more values are added to 'numbers' 
 
 ```python
 numbers = [1,2,3,4,5,6,7,8,9,10]
@@ -81,7 +81,7 @@ def print_array(array):
 ```
 
 ## Snippet 7 -
-### Big O:
+### Big O: 
 ### Explanation:
 
 ```python
